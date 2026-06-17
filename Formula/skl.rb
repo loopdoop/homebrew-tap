@@ -2,27 +2,27 @@
 class Skl < Formula
   desc "Self-hosted, cross-harness skill distribution & management CLI"
   homepage "https://useskl.com"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     on_arm do
-      url "https://github.com/loopdoop/skl/releases/download/v0.1.5/skl-darwin-arm64"
-      sha256 "433cfdb2ed81e9b8e67401fe08e42ecde8df765bbd9805bb9c5a3e5782de212c"
+      url "https://github.com/loopdoop/skl/releases/download/v0.1.6/skl-darwin-arm64"
+      sha256 "895c885632e9421dfa49e9731ebb4d30e498d2b0e070ea53fdbf5fe4d9ac2208"
     end
     on_intel do
-      url "https://github.com/loopdoop/skl/releases/download/v0.1.5/skl-darwin-x64"
-      sha256 "15c460525fb4cbb0377b045ad6b8453c7583abe851931e19a0c4b13fd1f200ad"
+      url "https://github.com/loopdoop/skl/releases/download/v0.1.6/skl-darwin-x64"
+      sha256 "63421fbab634ce63b77aed7e71b13ae687c23215e81c9fc31ebbf517599b810b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/loopdoop/skl/releases/download/v0.1.5/skl-linux-arm64"
-      sha256 "1bcde3b86e50b32c7b439ad46cfa68882a7aa39f32a2a686c2eb15c7fd28b24e"
+      url "https://github.com/loopdoop/skl/releases/download/v0.1.6/skl-linux-arm64"
+      sha256 "20bf85a999792b00c0e7fe5f1689342730fda440d799b24ccde5be5201a76f03"
     end
     on_intel do
-      url "https://github.com/loopdoop/skl/releases/download/v0.1.5/skl-linux-x64"
-      sha256 "f43e35cb1b9003823d87dc046f44d14d9b07758ba9af7b9dd9ebf89fb53c0c8b"
+      url "https://github.com/loopdoop/skl/releases/download/v0.1.6/skl-linux-x64"
+      sha256 "3306db2a387607e468ec0392b1ccae89bcbfa14c3d32fdf3c2e28603adcf9135"
     end
   end
 
